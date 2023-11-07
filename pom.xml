@@ -28,7 +28,7 @@
 				   <cloudHubDeployment>
 				      <uri>https://anypoint.mulesoft.com</uri>
 				      <muleVersion>4.4.0</muleVersion>
-				      <username>vishnu_r</username>
+				      <username>vishnu_tgh</username>
 				      <password>Comrade@5730</password>
 				      <applicationName>CICDTest</applicationName>
 				      <environment>Sandbox</environment>
