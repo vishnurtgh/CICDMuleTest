@@ -39,6 +39,7 @@
 				      <environment>Sandbox</environment>
 				      <workers>1</workers>
 				      <workerType>MICRO</workerType>
+				      <businessGroup>TGH</businessGroup>   
 				      <properties>
 				        <key>value</key>
 				      </properties>
