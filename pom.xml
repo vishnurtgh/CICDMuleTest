@@ -20,11 +20,6 @@
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-clean-plugin</artifactId>
-				<version>3.2.0</version>
-			</plugin>
-			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>${mule.maven.plugin.version}</version>
@@ -39,10 +34,12 @@
 				      <environment>Sandbox</environment>
 				      <workers>1</workers>
 				      <workerType>MICRO</workerType>
+				      <businessGroup>TGH</businessGroup>   
 				      <properties>
 				        <key>value</key>
 				      </properties>
 				   </cloudHubDeployment>
+				   <classifier>mule-application</classifier>	
 				</configuration>
 			</plugin>
 		</plugins>
